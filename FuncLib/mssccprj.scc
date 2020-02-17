@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[FuncLib.vbp]
+SCC_Aux_Path =\\phobos\vss6\Applications\gmonkman,
+SCC_Project_Name ="$/Develop/Vb6/Repository/ActiveXDll/FuncLib", HXAAAAAA
+
+[Project1.vbp]
+SCC_Aux_Path = "\\phobos\vss6\Applications\gmonkman"
+SCC_Project_Name = "$/Develop/Vb6/Repository/ActiveXDll/FuncLib", HXAAAAAA
+
+[TestFuncLib.vbp]
+SCC_Aux_Path = "\\phobos\vss6\Applications\gmonkman"
+SCC_Project_Name = "$/Develop/Vb6/Repository/ActiveXDll/FuncLib", HXAAAAAA

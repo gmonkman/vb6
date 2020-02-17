@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Develop\vb6\Camelot Launcher\Package
+RA Server Support=No
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+D:\WINDOWS\System32\AutPrx32.dll=This file is needed for RA server support.
+D:\WINDOWS\System32\AutMgr32.exe=This file is needed for RA server support.
+D:\WINDOWS\System32\RACMgr32.exe=This file is needed for RA server support.
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\windows\system32\autprx32.dll=
+d:\windows\system32\autmgr32.exe=
+d:\windows\system32\racmgr32.exe=
+d:\windows\system32\racreg32.dll=
+d:\windows\system32\odkob32.dll=
+d:\windows\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\ToA\CamelotLauncher.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Develop\vb6\Repository\ActiveXDll\FuncLib\FuncLib.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\WINDOWS\system32\AUTPRX32.DLL=No
+D:\WINDOWS\system32\AUTMGR32.EXE=No
+D:\WINDOWS\system32\RACMGR32.EXE=No
+D:\WINDOWS\system32\MSCOMCTL.OCX=No
+D:\WINDOWS\system32\RACREG32.DLL=No
+D:\WINDOWS\system32\ODKOB32.DLL=No
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\ToA\CamelotLauncher.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Develop\vb6\Repository\ActiveXDll\FuncLib\FuncLib.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\ToA\CamelotLauncher.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Camelot Launcher Installation
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Camelot Launcher
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Develop\vb6\Camelot Launcher\Package
+ProjectFolder=D:\Develop\vb6\Camelot Launcher
+ServerSideCab=
+File1=D:\Develop\vb6\Camelot Launcher\Package\setup.exe
+File2=D:\Develop\vb6\Camelot Launcher\Package\Setup.Lst
+File3=D:\Develop\vb6\Camelot Launcher\Package\CamelotLauncher.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
